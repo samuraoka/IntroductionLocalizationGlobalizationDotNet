@@ -118,15 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CurrentCulture" xml:space="preserve">
-    <value>現在の形式: {0}</value>
-  </data>
-  <data name="FlagImage" xml:space="preserve">
-    <value>../Resources/ja_flag.jpg</value>
+    <value>Current Culture: {0}</value>
   </data>
   <data name="Greeting" xml:space="preserve">
-    <value>こんにちは。</value>
-  </data>
-  <data name="Prompt" xml:space="preserve">
-    <value>形式の変更:</value>
+    <value>Generic English Greetings to You</value>
   </data>
 </root>
