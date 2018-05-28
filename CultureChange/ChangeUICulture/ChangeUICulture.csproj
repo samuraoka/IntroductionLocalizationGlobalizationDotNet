@@ -118,5 +118,8 @@
   <ItemGroup>
     <Resource Include="Resources\ja_flag.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\no_flag.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

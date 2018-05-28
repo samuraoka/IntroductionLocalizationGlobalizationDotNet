@@ -121,7 +121,7 @@
     <value>Current Culture: {0}</value>
   </data>
   <data name="FlagImage" xml:space="preserve">
-    <value />
+    <value>../Resources/no_flag.png</value>
   </data>
   <data name="Greeting" xml:space="preserve">
     <value>Hello, World</value>

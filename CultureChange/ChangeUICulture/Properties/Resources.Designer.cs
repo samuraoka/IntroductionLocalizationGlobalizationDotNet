@@ -70,7 +70,7 @@ namespace ChangeUICulture.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ../Resources/no_flag.png.
         /// </summary>
         public static string FlagImage {
             get {
