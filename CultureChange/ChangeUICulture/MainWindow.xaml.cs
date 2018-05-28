@@ -20,6 +20,7 @@ namespace ChangeUICulture
             GBButton.Click += GBButton_Click;
             AUButton.Click += AUButton_Click;
             NZButton.Click += NZButton_Click;
+            JAButton.Click += JPButton_Click;
         }
 
         private void UpdateUIElements()
@@ -49,6 +50,11 @@ namespace ChangeUICulture
         private void NZButton_Click(object sender, RoutedEventArgs e)
         {
             App.ChangeCulture(new CultureInfo("en-NZ"));
+        }
+
+        private void JPButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.ChangeCulture(new CultureInfo("ja-JP"));
         }
     }
 }

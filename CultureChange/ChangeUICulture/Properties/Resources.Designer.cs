@@ -86,5 +86,14 @@ namespace ChangeUICulture.Properties {
                 return ResourceManager.GetString("Greeting", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Culture:.
+        /// </summary>
+        public static string Prompt {
+            get {
+                return ResourceManager.GetString("Prompt", resourceCulture);
+            }
+        }
     }
 }

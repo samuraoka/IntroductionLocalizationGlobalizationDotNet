@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:resx="clr-namespace:ChangeUICulture.Properties"
         mc:Ignorable="d"
-        Title="Change Culture App" Height="245" Width="445"
+        Title="Change Culture App" Height="245" Width="480"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="TextBlock">
@@ -14,7 +14,9 @@
     </Window.Resources>
     <StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <TextBlock Text="Select Culture: " VerticalAlignment="Center"/>
+            <TextBlock Text="{x:Static resx:Resources.Prompt}"
+                       VerticalAlignment="Center"
+                       Padding="0,0,5,0"/>
             <Button x:Name="USButton" Content="en-US"
                     HorizontalAlignment="Center" Padding="10,5" Margin="5"/>
             <Button x:Name="GBButton" Content="en-GB"
@@ -22,6 +24,8 @@
             <Button x:Name="AUButton" Content="en-AU"
                     HorizontalAlignment="Center" Padding="10,5" Margin="5"/>
             <Button x:Name="NZButton" Content="en-NZ"
+                    HorizontalAlignment="Center" Padding="10,5" Margin="5"/>
+            <Button x:Name="JAButton" Content="ja-JP"
                     HorizontalAlignment="Center" Padding="10,5" Margin="5"/>
         </StackPanel>
         <Grid>
