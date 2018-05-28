@@ -30,13 +30,14 @@
         </StackPanel>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="200"/>
             </Grid.RowDefinitions>
             <Image Source="{Binding Source={x:Static resx:Resources.FlagImage}}"
-                   Opacity="0.15" Grid.RowSpan="4" />
+                   Opacity="0.15" Grid.RowSpan="5" />
             <TextBlock Text="{x:Static resx:Resources.Greeting}"
                        HorizontalAlignment="Center" Padding="10,5"
                        Margin="5"/>
