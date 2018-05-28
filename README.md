@@ -3,3 +3,4 @@ This is a demo application for the [Introduction to Localization and Globalizati
 
 - .Net
 - Localization and Globalization
+- WFP
