@@ -61,6 +61,15 @@ namespace ChangeUICulture.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Current Culture: {0}.
+        /// </summary>
+        public static string CurrentCulture {
+            get {
+                return ResourceManager.GetString("CurrentCulture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string FlagImage {

@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Globalization;
+using System.Threading;
 using System.Windows;
 
 namespace ChangeUICulture
@@ -13,5 +9,17 @@ namespace ChangeUICulture
     /// </summary>
     public partial class App : Application
     {
+        internal static void ChangeCulture(CultureInfo newCulture)
+        {
+            Thread.CurrentThread.CurrentCulture = newCulture;
+            Thread.CurrentThread.CurrentUICulture = newCulture;
+
+            var oldWindow = Current.MainWindow;
+
+            Current.MainWindow = new MainWindow();
+            Current.MainWindow.Show();
+
+            oldWindow.Close();
+        }
     }
 }
